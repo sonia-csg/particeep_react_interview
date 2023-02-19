@@ -53,7 +53,7 @@ function App() {
     const categories = Object.keys(categoriesObj);
     setCategories(categories);
     setAllCategories(categories);
-  }, [movies, selectedCategories]);
+  }, [movies]);
 
   //un fonction qui gère la sélection des catégories
   const handleCategoryFilter = (event) => {
@@ -85,7 +85,7 @@ function App() {
     <div className='super'>
      
      
-      <select className='select-categorie' onChange={handleCategoryFilter} value={selectedCategories} >
+      <select className='select-categorie' onChange={handleCategoryFilter}  >
         {allCategories.map((category) => (
           <option key={category} value={category}>
             {category}
