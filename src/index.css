@@ -20,12 +20,6 @@ code {
 }
 
 
-/* .grid > div {
-  flex-basis: calc(30% - 40px);
-  
-} */
-
-
 .btn-container {
   display: flex;
   flex-direction: 'row';
@@ -56,10 +50,7 @@ code {
   background-color: #394350;
 }
 /*---------------------------*/
-/* .super {
-  background-color: #f5f5f5;
-  padding: 20px;
-} */
+
 
 .grid {
   /*height:  450px;*/
@@ -90,21 +81,6 @@ code {
   transform: translateY(-5px);
   transition: all 0.3s ease-in-out;
 }
-
-
-/* select {
-  width: 100%;
-  padding: 10px;
-  font-size: 16px;
-  border: none;
-  border-radius: 4px;
-  margin-bottom: 20px;
-  background-color: #fff;
-  
-}
-select:focus {
-  outline: none;
-} */
 
 option {
   font-size: 16px;

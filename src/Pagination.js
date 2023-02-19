@@ -16,7 +16,7 @@ function Pagination(props) {
 
 
     <div className='pagination'>
-      <MDBPagination className='mb-0'>
+      <MDBPagination className='prev_next'>
         <MDBPaginationItem
           disabled={props.currentPage === 1}
           onClick={handlePreviousPage}>
