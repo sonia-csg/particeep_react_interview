@@ -25,7 +25,7 @@ function App() {
     fetchData();
   }, []);
 
-  function filtrer() {
+  function getCategories() {
     const categoriesObj = movies.reduce((acc, curr) => {
       (curr.category ? [curr.category] : []).forEach((category) => {
         acc[category] = true;
@@ -36,7 +36,7 @@ function App() {
   }
   //Récupérer les catégories des movies
   useEffect(() => {
-    const categories = filtrer();
+    const categories = getCategories();
     setCategories(categories);
   }, [movies]);
 
@@ -48,7 +48,7 @@ function App() {
       }
       return selectedCategories.includes(movie.category);
     });
-    const categories = filtrer();
+    const categories = getCategories();
     setCategories(categories);
     setAllCategories(categories);
   }, [movies]);
