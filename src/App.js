@@ -4,7 +4,6 @@ import React, { useState, useEffect } from 'react';
 import { movies$ } from './movies';
 import Pagination from './Pagination';
 import "./index.css"
-import { MDBPagination, MDBPaginationItem, MDBPaginationLink } from 'mdb-react-ui-kit';
 
 function App() {
 
@@ -15,6 +14,7 @@ function App() {
   const [elementsPerPage, setElementsPerPage] = useState(4);
   const [currentPage, setCurrentPage] = useState(1);
   const [allCategories, setAllCategories] = useState([]);
+
   //Récupérer les données depuis le tableau
   useEffect(() => {
     async function fetchData() {
@@ -55,7 +55,7 @@ function App() {
     setAllCategories(categories);
   }, [movies]);
 
-  //un fonction qui gère la sélection des catégories
+  //une fonction qui gère la sélection des catégories
   const handleCategoryFilter = (event) => {
     const options = event.target.options;
     
