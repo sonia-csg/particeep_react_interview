@@ -20,10 +20,10 @@ code {
 }
 
 
-.grid > div {
+/* .grid > div {
   flex-basis: calc(30% - 40px);
   
-}
+} */
 
 
 .btn-container {
@@ -69,6 +69,7 @@ code {
   padding: 120px;
   justify-content: center;
   align-items: center;
+  
 }
 
 
@@ -111,5 +112,3 @@ option {
 
 
 
-/*
-*/
