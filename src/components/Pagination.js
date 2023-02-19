@@ -3,18 +3,15 @@ import { MDBPagination, MDBPaginationItem, MDBPaginationLink } from 'mdb-react-u
 
 import "./Pagination.css";
 function Pagination(props) {
-
+  
   const handlePreviousPage = () => {
     props.setCurrentPage(props.currentPage - 1);
   };
-
   const handleNextPage = () => {
     props.setCurrentPage(props.currentPage + 1);
   };
 
   return (
-
-
     <div className='pagination'>
       <MDBPagination className='prev_next'>
         <MDBPaginationItem
@@ -22,7 +19,6 @@ function Pagination(props) {
           onClick={handlePreviousPage}>
           <MDBPaginationLink><span aria-hidden='true'>«</span></MDBPaginationLink>
         </MDBPaginationItem>
-
         <MDBPaginationItem
           disabled={props.currentPage * props.elementsPerPage >= props.size}
           onClick={handleNextPage}
@@ -32,7 +28,6 @@ function Pagination(props) {
           </MDBPaginationLink>
         </MDBPaginationItem>
       </MDBPagination>
-
       <select className="select-page"
         value={props.elementsPerPage}
         onChange={(event) => props.setElementsPerPage(Number(event.target.value))}>
@@ -41,8 +36,6 @@ function Pagination(props) {
         <option value={12}>12 éléments par page</option>
       </select>
     </div>
-
-
   );
 }
 
