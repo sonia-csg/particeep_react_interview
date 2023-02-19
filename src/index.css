@@ -5,7 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  min-height: 100vh; 
+  min-height: 100vh;
 }
 
 
@@ -13,6 +13,7 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
 * {
   font-family: "Poppins", sans-serif;
   padding: 0;
@@ -31,24 +32,25 @@ code {
 
 .btn {
   border: none;
-  color:#fff;
+  color: #fff;
   font-size: 0.8rem;
   display: flex;
   align-items: center;
-  gap:6px;
+  gap: 6px;
   background-color: #bdc0c5;
   border-radius: 4px;
   padding: 6px 15px;
   margin: 0 10px;
 }
 
-.like-active { 
+.like-active {
   background-color: #FF0063;
 }
 
-.dislike-active { 
+.dislike-active {
   background-color: #394350;
 }
+
 /*---------------------------*/
 
 
@@ -60,7 +62,7 @@ code {
   padding: 120px;
   justify-content: center;
   align-items: center;
-  
+
 }
 
 
@@ -73,7 +75,7 @@ code {
   border: none;
   border-radius: 50px;
   margin-bottom: 10px;
-  
+
   margin-left: 400px;
   margin-top: 70px;
   background-color: rgb(255, 255, 255);
@@ -85,6 +87,3 @@ code {
 option {
   font-size: 16px;
 }
-
-
-

@@ -1,7 +1,8 @@
 .App {
   text-align: center;
- background-color: black;
+  background-color: black;
 }
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -32,11 +33,12 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
 }
 
-.super{
+.super {
   min-height: 100vh;
 }

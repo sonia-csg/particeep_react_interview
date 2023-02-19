@@ -1,26 +1,28 @@
-.carte-film{
-    height: 100%;
-    }
-    .carte-film:hover {
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-      transform: translateY(-5px);
-      transition: all 0.3s ease-in-out;
-      
-    }
-    .card-footer {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 10px;
-      background-color: #f8f9fa;
-    }
-    .supp-btn {
-      display: inline-block;
-      vertical-align: middle;
-    }
-    
-    .jauge {
-      display: inline-block;
-      vertical-align: middle;
-    }
-    
+.carte-film {
+  height: 100%;
+}
+
+.carte-film:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transform: translateY(-5px);
+  transition: all 0.3s ease-in-out;
+
+}
+
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #f8f9fa;
+}
+
+.supp-btn {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.jauge {
+  display: inline-block;
+  vertical-align: middle;
+}
