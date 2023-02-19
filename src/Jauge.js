@@ -40,8 +40,8 @@ function Jauge(props) {
     return (
       <div>
         
-      <Button variant="outline-secondary" icon="" onClick={handleLikeClick}>   <BsFillHandThumbsUpFill></BsFillHandThumbsUpFill>{likeCount} </Button>
-      <Button variant="outline-secondary" icon="" onClick={handleDisikeClick}> <BsFillHandThumbsDownFill></BsFillHandThumbsDownFill>{dislikeCount}</Button>
+      <Button variant="outline-secondary" onClick={handleLikeClick}>   <BsFillHandThumbsUpFill></BsFillHandThumbsUpFill>{likeCount} </Button>
+      <Button variant="outline-secondary" onClick={handleDisikeClick}> <BsFillHandThumbsDownFill></BsFillHandThumbsDownFill>{dislikeCount}</Button>
       
 
       </div>

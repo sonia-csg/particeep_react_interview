@@ -3,15 +3,16 @@ import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 import "bootstrap/dist/css/bootstrap.min.css"
 import Jauge from "./Jauge";
+import "./index.css" 
 
 function CarteFilm(props) {
   const handleDelete = (id) => {
     props.setMovies(props.movies.filter(movie => movie.id !== id));
   };
-    console.log(props)
+   // console.log(props)
     return (
      
-      <Card>
+      <Card className="carte-film">
        
         <Card.Body>
           <Card.Title >{props.name}</Card.Title>
@@ -19,11 +20,12 @@ function CarteFilm(props) {
           {props.cat}
           </Card.Text>
         </Card.Body>
-        <Card.Footer>
+        <Card.Footer className="card-footer">
         
            
-           <Button variant="primary" onClick={() => handleDelete(props.id)}>Supprimer</Button>
-            <Jauge likes={props.likes} dislikes={props.dislikes} movies={props.movies} setMovies={props.setMovies}></Jauge>       
+            <Button className="supp-btn" variant="primary"  onClick={() => handleDelete(props.id)}>Supprimer</Button>
+           
+            <Jauge className="jauge" likes={props.likes} dislikes={props.dislikes} movies={props.movies} setMovies={props.setMovies}></Jauge>       
          
         </Card.Footer>
       </Card>
