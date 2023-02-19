@@ -3,7 +3,7 @@ import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 import "bootstrap/dist/css/bootstrap.min.css"
 import Jauge from "./Jauge";
-import "./index.css" 
+import "./CarteFilm.css" 
 
 function CarteFilm(props) {
   const handleDelete = (id) => {

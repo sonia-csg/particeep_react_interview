@@ -109,74 +109,7 @@ option {
   font-size: 16px;
 }
 
-.carte-film{
-height: 100%;
-}
-.carte-film:hover {
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  transform: translateY(-5px);
-  transition: all 0.3s ease-in-out;
-  
-}
-.card-footer {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px;
-  background-color: #f8f9fa;
-}
-.supp-btn {
-  display: inline-block;
-  vertical-align: middle;
-}
 
-.jauge {
-  display: inline-block;
-  vertical-align: middle;
-}
-
-.pagination {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 20px;
-}
-
-.pagination select {
-  margin-right: 20px;
-  padding: 8px;
-  font-size: 14px;
-}
-
-.MDBPagination {
-  display: inline-block;
-  border-radius: 4px;
-}
-
-.MDBPaginationItem {
-  margin-right: 10px;
-}
-
-.MDBPaginationItem a {
-  background-color: #fff;
-  color: #333;
-  padding: 8px 12px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-}
-
-.MDBPaginationItem.active a {
-  background-color: #007bff;
-  color: #fff;
-  border-color: #007bff;
-}
-
-.MDBPaginationItem.disabled a {
-  color: #ccc;
-  pointer-events: none;
-  background-color: #fff;
-  border-color: #ccc;
-}
 
 /*
 */

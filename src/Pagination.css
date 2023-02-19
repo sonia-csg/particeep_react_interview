@@ -27,3 +27,47 @@
     background: #ffe400;
     color: #101010;
 }
+/* 
+.pagination {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+  }
+   */
+  .pagination select {
+    margin-right: 20px;
+    padding: 8px;
+    font-size: 14px;
+  }
+  
+  .MDBPagination {
+    display: inline-block;
+    border-radius: 4px;
+  }
+  
+  .MDBPaginationItem {
+    margin-right: 10px;
+  }
+  
+  .MDBPaginationItem a {
+    background-color: #fff;
+    color: #333;
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .MDBPaginationItem.active a {
+    background-color: #007bff;
+    color: #fff;
+    border-color: #007bff;
+  }
+  
+  .MDBPaginationItem.disabled a {
+    color: #ccc;
+    pointer-events: none;
+    background-color: #fff;
+    border-color: #ccc;
+  }
+  
